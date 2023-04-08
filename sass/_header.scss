@@ -1,4 +1,6 @@
 .header {
+  padding-left: calc(50vw - 140px);
+  padding-right: calc(50vw - 140px);
   position: fixed;
   left: 0;
   top: 0;
@@ -50,7 +52,6 @@
     gap: 30px;
     align-items: center;
     padding: 40px;
-    box-sizing: border-box;
     &-list {
       padding: 0;
       margin: 0;

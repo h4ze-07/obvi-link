@@ -1,0 +1,214 @@
+@media screen and (min-width: 510px) {
+    .center {
+        padding-left: calc(50vw - 180px);
+        padding-right: calc(50vw - 180px);
+    }
+
+    .header {
+        .logo {
+            display: none;
+        }
+        &__toggler {
+            display: none;
+        }
+        &__nav {
+            padding-left: calc(50vw - 200px);
+            padding-right: calc(50vw - 200px);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            .logo {
+                order: 1;
+                display: block;
+                margin-right: auto;
+                img {
+                    width: 125px;
+                    height: 20px;
+                }
+            }
+            .button {
+                order: 3;
+            }
+            &-list {
+                order: 2;
+                flex-direction: row;
+                gap: 15px;
+                padding-right: 15px;
+                li:nth-child(n + 3) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 753px) {
+    .center {
+        padding-left: calc(50vw - 320px);
+        padding-right: calc(50vw - 320px);
+    }
+
+    .header__nav {
+        padding-left: calc(50vw - 300px);
+        padding-right: calc(50vw - 300px);
+        &-list {
+            font-size: 16px;
+            gap: 20px;
+            padding-right: 20px;
+        }
+    }
+
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        &__nav {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            order: 3;
+        }
+        &__rights {
+            order: 2;
+            padding: 0;
+        }
+        .logo {
+            order: 1;
+            padding: 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .center {
+        padding-left: calc(50vw - 420px);
+        padding-right: calc(50vw - 420px);
+    }
+    
+    
+    .header {
+        &__nav {
+            padding-left: calc(50vw - 390px);
+            padding-right: calc(50vw - 390px);
+            .logo {
+                img {
+                    width: 157px;
+                    height: 25px;
+                }
+            }
+            &-list {
+                gap: 30px;
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .footer {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        flex-wrap: nowrap;
+        gap: 0;
+        &__nav {
+            gap: 30px;
+        }
+        &__rights {
+            margin-right: auto;
+        }
+        .logo {
+            padding-right: 15px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .center {
+        padding-left: calc(50vw - 475px);
+        padding-right: calc(50vw - 475px);
+    }
+    
+    
+    .header {
+        &__nav {
+            padding-left: calc(50vw - 450px);
+            padding-right: calc(50vw - 450px);
+        }
+    }
+
+    .footer {
+        padding-left: calc(50vw - 430px);
+        padding-right: calc(50vw - 430px);
+    }
+}
+
+
+@media screen and (min-width: 1368px) {
+    .center {
+        padding-left: calc(50vw - 570px);
+        padding-right: calc(50vw - 570px);
+    }
+    
+    
+    .header {
+        &__nav {
+            padding-left: calc(50vw - 550px);
+            padding-right: calc(50vw - 550px);
+        }
+    }
+
+    .footer {
+        padding-left: calc(50vw - 440px);
+        padding-right: calc(50vw - 440px);
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .center {
+        padding-left: calc(50vw - 675px);
+        padding-right: calc(50vw - 675px);
+    }
+    
+    
+    .header {
+        &__nav {
+            padding-left: calc(50vw - 645px);
+            padding-right: calc(50vw - 645px);
+        }
+    }
+
+    .footer {
+        padding-left: calc(50vw - 450px);
+        padding-right: calc(50vw - 450px);
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .center {
+        padding-left: calc(50vw - 760px);
+        padding-right: calc(50vw - 760px);
+    }
+    
+    
+    .header {
+        &__nav {
+            padding-left: calc(50vw - 730px);
+            padding-right: calc(50vw - 730px);
+        }
+    }
+
+    .footer {
+        padding-left: calc(50vw - 510px);
+        padding-right: calc(50vw - 510px);
+    }
+}
